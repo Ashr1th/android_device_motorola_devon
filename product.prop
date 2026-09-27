@@ -1,2 +1,5 @@
 # NFC
 persist.nfc_cfg.config_file_name=libnfc-nci-st.conf
+
+# maintainer
+ro.lunaris.maintainer=TillEnd
