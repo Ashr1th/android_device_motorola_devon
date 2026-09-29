@@ -33,6 +33,9 @@ SURFACE_FLINGER_BOOST := true
 TARGET_USE_MAPS := false
 TARGET_CUSTOM_UDFPS := false
 USE_REALITY_ENGINE := true
+WITH_BCR := true
+TARGET_ENABLE_BLUR := false
+WITH_PIXEL_LAUNCHER := false
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,90)
 $(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
 TARGET_BOOT_ANIMATION_RES := 1080
